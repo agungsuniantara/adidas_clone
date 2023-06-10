@@ -29,6 +29,18 @@ body{
     font-size: 2.5vh;
 }
 
+.wrap-kiri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 7vh;
+    height: 5vh;
+    margin-right: 5vh;
+}
+
 .navbar-kiri{
     display: flex;
     justify-content: center;
@@ -36,17 +48,11 @@ body{
     font-family: 'Geologica', sans-serif;
 }
 
-.navbar-kiri img{
-    width: 7vh;
-    height: 5vh;
-    margin-right: 5vh;
-}
-
 .navbar-kiri ul{
     list-style: none;
 }
 
-.navbar-kiri li{
+.navbar-kiri ul li{
     display:inline-block;
     margin: 0vh 1vh;
     padding: 1vh 1vh 1vh 1vh;
@@ -174,14 +180,14 @@ input[type=text]{
 }
   
 @media only screen and (max-width: 140vh) {
-    .body-wrapper{
+    /* .body-wrapper{
         flex-direction:row;
         height: auto;
-    }
+    } */
 
     /* navbar */
 
-    .navbar{
+    /* .navbar{
         flex-direction: column;
         height:auto;
         width: 11vh;
@@ -190,9 +196,9 @@ input[type=text]{
         border-right: 0.3px solid rgba(128, 128, 128, 0.462);
         font-size: 2vh;
         justify-content:flex-start;
-    }
+    } */
 
-    .navbar-kiri img{
+    /* .navbar-kiri img{
         width: 4vh;
         height: 4vh;
         margin: 2vh 1vh 3vh 1vh;
@@ -234,6 +240,37 @@ input[type=text]{
         margin-left: 7vh;
         margin-top: 1.2vh;
         z-index: -1;
+    } */
+    .navbar-kiri{
+        display: flex;
+        position: absolute;
+        width: 44vh;
+        margin-left: 30vh;
+        font-size: 2vh;
+    }
+    
+    .navbar-kiri ul{
+        margin-top: 20vh;
+        background-color: aliceblue;
+    }
+
+    .navbar-kanan li{
+        margin: 0 1vh;
+    }
+
+    input[type=text]{
+        width: 15vh;
+        height: 3vh;
+        background-color: rgba(128, 128, 128, 0.128);
+    }
+
+    .icon{
+        margin-left: 13vh;
+        margin-top: 1vh;
+    }
+
+    .active a{
+        text-decoration: none;
     }
 
     /* konten */
