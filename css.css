@@ -241,16 +241,23 @@ input[type=text]{
         margin-top: 1.2vh;
         z-index: -1;
     } */
+
+    .navbar img{
+        width: 4vh;
+        height: 3vh;
+        margin-right: 5vh;
+    }
+
     .navbar-kiri{
         display: flex;
         position: absolute;
-        width: 44vh;
-        margin-left: 30vh;
+        width: 90%;
         font-size: 2vh;
+        margin-left: 80%;
     }
     
     .navbar-kiri ul{
-        margin-top: 20vh;
+        margin-top: 25vh;
         background-color: aliceblue;
     }
 
