@@ -52,7 +52,7 @@ body{
     list-style: none;
 }
 
-.navbar-kiri ul li{
+.navbar-kiri li{
     display:inline-block;
     margin: 0vh 1vh;
     padding: 1vh 1vh 1vh 1vh;
@@ -179,13 +179,11 @@ input[type=text]{
     font-size: 1.5vh;
 }
   
-@media only screen and (max-width: 140vh) {
+@media only screen and (max-width: 145vh) {
     /* .body-wrapper{
         flex-direction:row;
         height: auto;
     } */
-
-    /* navbar */
 
     /* .navbar{
         flex-direction: column;
@@ -242,6 +240,8 @@ input[type=text]{
         z-index: -1;
     } */
 
+    /* navbar */
+
     .navbar img{
         width: 4vh;
         height: 3vh;
@@ -249,11 +249,9 @@ input[type=text]{
     }
 
     .navbar-kiri{
-        display: flex;
         position: absolute;
-        width: 90%;
         font-size: 2vh;
-        margin-left: 80%;
+        margin-top: 15vh;
     }
     
     .navbar-kiri ul{

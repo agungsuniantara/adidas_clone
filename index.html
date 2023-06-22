@@ -15,6 +15,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(window).on("resize", function () {
+          if ($(window).width() <= (145 * window.innerHeight) / 100) {
+            $(".navbar-kiri").hide();
+            $(".fa-bars").on("click", function () {
+              $(".navbar-kiri").toggle();
+            });
+          } else {
+            $(".navbar-kiri").show();
+          }
+        });
+      });
+    </script>
     <title>Adidas Clone</title>
   </head>
   <body ontouchstart>
@@ -29,7 +45,7 @@
           <div class="navbar-kiri">
             <ul>
               <li>
-                <b>MEN</b>
+                MEN
                 <div class="sub-men">
                   <ul>
                     <li>
@@ -86,7 +102,7 @@
                 </div>
               </li>
               <li>
-                <b>WOMEN</b>
+                WOMEN
                 <div class="sub-men">
                   <ul>
                     <li>
@@ -143,7 +159,7 @@
                 </div>
               </li>
               <li>
-                <b>KIDS</b>
+                KIDS
                 <div class="sub-men">
                   <ul>
                     <li>
@@ -165,7 +181,6 @@
                         </ul>
                       </div>
                     </li>
-
                     <li>
                       CLOTHING <i class="fa-solid fa-chevron-right fa-sm"></i>
                       <div class="sub-men-feature">
@@ -201,7 +216,7 @@
               </li>
               <li>SPORTS</li>
               <li>BRANDS</li>
-              <li><b>OUTLET</b></li>
+              <li>OUTLET</li>
             </ul>
           </div>
         </div>
@@ -216,11 +231,7 @@
             </li>
             <li><i class="fa-sharp fa-solid fa-cart-shopping"></i></li>
             <li>
-              <div class="active">
-                <a href="#" onclick="myFunction()">
-                  <i class="fa-solid fa-bars"></i>
-                </a>
-              </div>
+              <i class="fa-solid fa-bars"></i>
             </li>
           </ul>
         </div>
@@ -233,6 +244,14 @@
           <div class="konten-navbar"></div>
           <div class="konten-header">
             <img src="header.jpg" alt="" />
+          </div>
+          <div class="konten-item">
+            <img src="baju_1.jpg" alt="" />
+            <div class="konten-item-tulisan">
+              <p style="color: grey; margin-bottom: 2vh">Men training</p>
+              <p style="margin-bottom: 1vh">Design to move logo T-Shirt</p>
+              <p style="color: red">Rp 312.000</p>
+            </div>
           </div>
           <div class="konten-item">
             <img src="baju_1.jpg" alt="" />
