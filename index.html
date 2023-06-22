@@ -20,7 +20,8 @@
     <script>
       $(document).ready(function () {
         $(window).on("resize", function () {
-          if ($(window).width() <= (145 * window.innerHeight) / 100) {
+          var windowWidth = $(window).width();
+          if (windowWidth <= 1000) {
             $(".navbar-kiri").hide();
             $(".fa-bars").on("click", function () {
               $(".navbar-kiri").toggle();
