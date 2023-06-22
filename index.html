@@ -23,12 +23,19 @@
           var windowWidth = $(window).width();
           if (windowWidth <= 1000) {
             $(".navbar-kiri").hide();
-            $(".fa-bars").on("click", function () {
-              $(".navbar-kiri").toggle();
-            });
           } else {
             $(".navbar-kiri").show();
           }
+
+          if (windowWidth > 1000) {
+            $(".fa-bars").hide();
+          } else {
+            $(".fa-bars").show();
+          }
+        });
+
+        $(".fa-bars").on("click", function () {
+          $(".navbar-kiri").toggle();
         });
       });
     </script>
