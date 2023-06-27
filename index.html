@@ -19,20 +19,20 @@
 
     <script>
       $(document).ready(function () {
-        var width = $(window).width();
-        if (width > 1000) {
+        var desktop = $(window).width();
+        if (desktop > 1000) {
           $(".fa-bars").hide();
         }
 
         $(window).on("resize", function () {
-          var windowWidth = $(window).width();
-          if (windowWidth <= 1000) {
+          var mobile = $(window).width();
+          if (mobile <= 1000) {
             $(".navbar-kiri").hide();
           } else {
             $(".navbar-kiri").show();
           }
 
-          if (windowWidth < 1000) {
+          if (mobile < 1000) {
             $(".fa-bars").show();
           } else {
             $(".fa-bars").hide();
