@@ -252,9 +252,7 @@ input[type=text]{
         position: absolute;
         font-size: 2vh;
         margin-top: 15vh;
-        /* display: none; */
-        flex-direction: column;
-
+        z-index: 999;
     }
     
     .navbar-kiri ul{
