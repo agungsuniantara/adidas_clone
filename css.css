@@ -23,10 +23,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1dvh 2dvh;
+    margin: 1vh 2vh;
     border-bottom: 0.3px solid rgba(128, 128, 128, 0.462);
-    height: 12dvh;
-    font-size: 2.5dvh;
+    height: 12vh;
+    font-size: 2.5vh;
 }
 
 .wrap-kiri{
@@ -36,9 +36,9 @@ body{
 }
 
 .navbar img{
-    width: 7dvh;
-    height: 5dvh;
-    margin-right: 5dvh;
+    width: 7vh;
+    height: 5vh;
+    margin-right: 5vh;
 }
 
 .navbar-kiri{
@@ -54,8 +54,8 @@ body{
 
 .navbar-kiri li{
     display:inline-block;
-    margin: 0dvh 1dvh;
-    padding: 1dvh 1dvh 1dvh 1dvh;
+    margin: 0vh 1vh;
+    padding: 1vh 1vh 1vh 1vh;
 }
 
 .sub-men{
@@ -70,15 +70,15 @@ body{
     display: block;
     position: absolute;
     background-color:aliceblue;
-    margin: 1.1dvh;
-    margin-left: -1dvh;
+    margin: 1.1vh;
+    margin-left: -1vh;
     text-align: left;
 }
 
 .navbar-kiri li:hover .sub-men ul{
     display: grid;
-    margin-top: 1dvh;
-    width: 24dvh;
+    margin-top: 1vh;
+    width: 24vh;
 }   
 
 .navbar-kiri li:hover .sub-men li:hover{
@@ -87,7 +87,7 @@ body{
 
 .fa-chevron-right{
     float: right;
-    margin-top: 1.3dvh;
+    margin-top: 1.3vh;
 }
 
 .sub-men-feature{
@@ -97,14 +97,14 @@ body{
 .sub-men li:hover .sub-men-feature{
     display: block;
     position: absolute;
-    margin-left: 20dvh;
-    margin-top: -5dvh;
-    width: 19dvh;
+    margin-left: 20vh;
+    margin-top: -5vh;
+    width: 19vh;
     text-align: center;
 }
 
 .sub-men li:hover .sub-men-feature ul{
-    width: 20dvh;
+    width: 20vh;
     background-color: aliceblue;
 }
 
@@ -120,20 +120,20 @@ body{
 
 .navbar-kanan li{
     display:inline-block;
-    margin: 0 2dvh;
+    margin: 0 2vh;
 }
 
 input[type=text]{
-    width: 30dvh;
-    height: 3dvh;
+    width: 30vh;
+    height: 3vh;
     background-color: rgba(128, 128, 128, 0.128);
-    padding: 1dvh;
+    padding: 1vh;
 }
 
 .icon{
     position: absolute;
-    margin-left: 28dvh;
-    margin-top: 1dvh;
+    margin-left: 28vh;
+    margin-top: 1vh;
 }
 
 /* konten */
@@ -142,14 +142,14 @@ input[type=text]{
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    padding: 3dvh 10dvh;
+    padding: 3vh 10vh;
 }
 
 .konten-grid {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    gap: 2dvh;
+    gap: 2vh;
 }
   
 .konten-header{
@@ -159,7 +159,7 @@ input[type=text]{
 
 .konten-header img{
     width: 100%;
-    height: 40dvh;
+    height: 40vh;
 }
   
 .konten-item:hover{
@@ -169,14 +169,14 @@ input[type=text]{
 
 .konten-item img{
     width: 100%;
-    height: 20dvh;
+    height: 20vh;
 }
 
 .konten-item-tulisan{
     width: auto;
     height: auto;
-    padding: 2dvh;
-    font-size: 1.5dvh;
+    padding: 2vh;
+    font-size: 1.5vh;
 }
   
 @media only screen and (max-width: 1278px) {
@@ -188,91 +188,91 @@ input[type=text]{
     /* .navbar{
         flex-direction: column;
         height:auto;
-        width: 11dvh;
-        margin: 0dvh 0dvh;
+        width: 11vh;
+        margin: 0vh 0vh;
         text-align: center;
         border-right: 0.3px solid rgba(128, 128, 128, 0.462);
-        font-size: 2dvh;
+        font-size: 2vh;
         justify-content:flex-start;
     } */
 
     /* .navbar-kiri img{
-        width: 4dvh;
-        height: 4dvh;
-        margin: 2dvh 1dvh 3dvh 1dvh;
+        width: 4vh;
+        height: 4vh;
+        margin: 2vh 1vh 3vh 1vh;
     }
     .navbar-kiri{
         flex-direction: column;
-        font-size: 1.4dvh;
+        font-size: 1.4vh;
     }
     .navbar-kiri li{
-        margin: 1dvh 1dvh 0dvh 1dvh;
+        margin: 1vh 1vh 0vh 1vh;
     }    
     .navbar-kiri li:hover .sub-men ul{
-        width: 18dvh;
+        width: 18vh;
     }   
     .fa-chevron-right{
-        margin-top: 0.8dvh;
+        margin-top: 0.8vh;
     }
     .sub-men li:hover .sub-men-feature{
-        margin-left: 15dvh;
-        margin-top: -4.5dvh;
-        width: 13dvh;
+        margin-left: 15vh;
+        margin-top: -4.5vh;
+        width: 13vh;
         z-index: 99;
     }
     .sub-men li:hover .sub-men-feature ul{
-        width: 13dvh;
+        width: 13vh;
     }
 
     .navbar-kanan-search{
-        margin: 1dvh 1dvh 2dvh 1dvh;
+        margin: 1vh 1vh 2vh 1vh;
     }
 
     input[type=text]{
-        width: 8dvh;
-        height: 3dvh;
-        font-size: 1.5dvh;
+        width: 8vh;
+        height: 3vh;
+        font-size: 1.5vh;
     }
     
     .icon{
-        margin-left: 7dvh;
-        margin-top: 1.2dvh;
+        margin-left: 7vh;
+        margin-top: 1.2vh;
         z-index: -1;
     } */
 
     /* navbar */
 
     .navbar img{
-        width: 4dvh;
-        height: 3dvh;
-        margin-right: 5dvh;
+        width: 4vh;
+        height: 3vh;
+        margin-right: 5vh;
     }
 
     .navbar-kiri{
         position: absolute;
-        font-size: 2dvh;
-        margin-top: 15dvh;
+        font-size: 2vh;
+        margin-top: 15vh;
         z-index: 999;
     }
     
     .navbar-kiri ul{
-        margin-top: 25dvh;
+        margin-top: 25vh;
         background-color: aliceblue;
     }
 
     .navbar-kanan li{
-        margin: 0 1dvh;
+        margin: 0 1vh;
     }
 
     input[type=text]{
-        width: 15dvh;
-        height: 3dvh;
+        width: 15vh;
+        height: 3vh;
         background-color: rgba(128, 128, 128, 0.128);
     }
 
     .icon{
-        margin-left: 13dvh;
-        margin-top: 1dvh;
+        margin-left: 13vh;
+        margin-top: 1vh;
     }
 
     .active a{
@@ -281,7 +281,7 @@ input[type=text]{
 
     /* konten */
     .konten-wrapper{
-        padding: 1dvh 2dvh;
+        padding: 1vh 2vh;
     }
 
     .konten-grid {
@@ -294,10 +294,10 @@ input[type=text]{
     }
     .konten-header img{
         width: 100%;
-        height: 25dvh;
+        height: 25vh;
     }
     .konten-item img{
         width: 100%;
-        height: 15dvh;
+        height: 15vh;
     }
   }
