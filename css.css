@@ -142,7 +142,7 @@ input[type=text]{
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    padding: 3dvh 2dvh;
+    padding: 3dvh 10dvh;
 }
 
 .konten-grid {
@@ -159,7 +159,7 @@ input[type=text]{
 
 .konten-header img{
     width: 100%;
-    height: 74.5dvh;
+    height: 40dvh;
 }
   
 .konten-item:hover{
@@ -169,7 +169,7 @@ input[type=text]{
 
 .konten-item img{
     width: 100%;
-    height: 45dvh;
+    height: 20dvh;
 }
 
 .konten-item-tulisan{
@@ -179,7 +179,7 @@ input[type=text]{
     font-size: 1.5dvh;
 }
   
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1278px) {
     /* .body-wrapper{
         flex-direction:row;
         height: auto;
@@ -280,6 +280,9 @@ input[type=text]{
     }
 
     /* konten */
+    .konten-wrapper{
+        padding: 1dvh 2dvh;
+    }
 
     .konten-grid {
         grid-template-columns: auto;
@@ -287,14 +290,14 @@ input[type=text]{
       
     .konten-header{
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 5;
     }
     .konten-header img{
         width: 100%;
-        height: 20dvh;
+        height: 25dvh;
     }
     .konten-item img{
         width: 100%;
-        height: 20dvh;
+        height: 15dvh;
     }
   }
